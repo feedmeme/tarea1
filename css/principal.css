@@ -1,0 +1,86 @@
+/*Formato para título del tipo h1 */
+h1 {
+    margin: auto;
+    width: 100%;
+}
+
+/*Ancho para imagen en menu principal*/
+.img1 {
+    width: 100px;
+}
+
+/*Formato para contenido del div central */
+#central {
+    background-color: white;
+    display: flex;
+    margin: auto;
+    text-align: center;
+
+    margin-top: 100px;
+    width: 400px;
+    height: 400px;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+/*Formato adicional para los botones bootstrap  */
+#botones {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    width: 350px;
+}
+
+/*Formato para texto en parrafo*/
+#parrafo{
+    font-size: 20px;
+    font-style: italic;
+}
+
+/* Formato adicional para botones bootstrap */
+.btn {
+    margin-left: 15px;
+    width: 150px;
+    height: 70px;
+    font-size: 18px;
+
+}
+
+/*Formato para elemento h2 */
+h2 {
+    text-align: center;
+    font-style: italic;
+}
+
+/*Formato para barra de navegación al final de la página*/
+#menu2{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    width: 100px;
+}
+
+/*Ancho para ícono de Github en barra de navegación al final de la página*/
+.icon{
+    width: 50px;
+}
+
+/*Formato para el div 'nombre' con texto en su contenido*/
+#nombre{
+    
+    display: flex;
+    margin-top: 5px;
+    justify-content: center;
+    color: white;
+    font-size: 12px;
+    font-style: italic;
+    width: 100vw;
+}
+
+/*Imagen de fondo */
+body {
+    background-image: url('../img/fondo.png');
+ 
+
+}
