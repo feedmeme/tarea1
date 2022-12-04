@@ -1,7 +1,17 @@
-/*Formato para título del tipo h1 */
+/*Formato para título del tipo h1*/
 h1 {
-    margin: auto;
+    text-align: center;
     width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+
+
+}
+
+/*Formato para titulo del tipo h2*/
+h2{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 
 /*Ancho para imagen en menu principal*/
@@ -14,8 +24,8 @@ h1 {
     background-color: white;
     display: flex;
     margin: auto;
-    text-align: center;
-
+    align-items: center;
+    justify-content: center;
     margin-top: 100px;
     width: 400px;
     height: 400px;
@@ -30,12 +40,6 @@ h1 {
     margin: auto;
     justify-content: center;
     width: 350px;
-}
-
-/*Formato para texto en parrafo*/
-#parrafo{
-    font-size: 20px;
-    font-style: italic;
 }
 
 /* Formato adicional para botones bootstrap */
@@ -75,11 +79,13 @@ h2 {
     color: white;
     font-size: 12px;
     font-style: italic;
-    width: 100vw;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
 }
 
 /*Imagen de fondo */
 body {
+    
     background-image: url('../img/fondo.png');
  
 
