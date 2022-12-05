@@ -1,64 +1,65 @@
 /*Formato para título del tipo h1*/
 h1 {
-    text-align: center;
-    width: 100%;
-    font-family: 'Roboto', sans-serif;
+    font-size: 8vh;
+    font-size: 3vw;
     font-weight: bold;
-
-
 }
 
 /*Formato para titulo del tipo h2*/
 h2{
-    text-align: center;
     font-family: 'Roboto', sans-serif;
+    font-size: 2vh;
+    font-size: 2vw;
 }
-
 /*Ancho para imagen en menu principal*/
 .img1 {
+    display: flex;
     width: 100px;
 }
 
 /*Formato para contenido del div central */
 #central {
+    margin: auto;
     background-color: white;
     display: flex;
-    margin: auto;
-    align-items: center;
-    justify-content: center;
     margin-top: 100px;
     width: 400px;
-    height: 400px;
-    flex-direction: row;
+    height: 300px;
+    flex-direction: column;
     flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    position: relative;
 
 }
 
 /*Formato adicional para los botones bootstrap  */
 #botones {
-    display: flex;
     margin: auto;
+    margin-top: 15px;
+    margin-bottom: 1px;
+    display: flex;
     justify-content: center;
-    width: 350px;
+    width: 250px;
+    height: 50px;
 }
 
 /* Formato adicional para botones bootstrap */
 .btn {
-    margin-left: 15px;
-    width: 150px;
-    height: 70px;
-    font-size: 18px;
+    margin: 2px;
+    font-size: 100%;
 
 }
 
-/*Formato para elemento h2 */
-h2 {
-    text-align: center;
-    font-style: italic;
+/*Formato para titulo 2 */
+#titulo2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
 
 /*Formato para barra de navegación al final de la página*/
-#menu2{
+#menu2 {
     display: flex;
     margin: auto;
     justify-content: center;
@@ -66,13 +67,13 @@ h2 {
 }
 
 /*Ancho para ícono de Github en barra de navegación al final de la página*/
-.icon{
+.icon {
     width: 50px;
 }
 
 /*Formato para el div 'nombre' con texto en su contenido*/
-#nombre{
-    
+#nombre {
+
     display: flex;
     margin-top: 5px;
     justify-content: center;
@@ -83,10 +84,21 @@ h2 {
     font-family: 'Roboto', sans-serif;
 }
 
+/*Tamaño adicional para barra de navegación bootstrap */
+.navbar1{
+    height: 40px;
+    width: 100%;
+}
+
 /*Imagen de fondo */
 body {
-    
-    background-image: url('../img/fondo.png');
- 
 
+    background-image: url('../img/fondo.png');
+    background-size: cover;
+
+
+}
+
+.icon:hover{
+    opacity: 10%;
 }

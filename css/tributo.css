@@ -1,0 +1,222 @@
+h1{
+    width: 100vw;
+}
+
+.img1{
+    margin: auto;
+    margin-top: 15px;
+    width: 25vw;
+    height: 40vh;
+
+
+}
+.img1:hover{
+    border: solid 5px black;
+
+}
+
+#title{
+    margin-top: 70px;
+   text-align: center;
+}
+
+#text1{
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    text-align: justify;
+    width: 800px;
+    font-size: 1.5vw;
+}
+
+
+.navbar{
+    display: flex;
+    height: 60px;
+}
+
+.text-bar{
+    font-size: 15px;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+}
+.navbar-togler{
+    display: flex;
+
+}
+
+.accordion{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin:40px;
+}
+
+.accordion-body{
+    text-align: justify;
+    font-size: 1vw;
+
+
+
+
+}
+
+.img2{
+    display: flex; 
+    margin: auto;
+    margin-top: 30px;
+    width: 30%;
+}
+
+.d-img2{
+    margin-top: 10px;
+    text-align: center;
+    font-style: italic;
+    font-size: 1vw;
+}
+
+.img3{
+    display: flex; 
+    margin: auto;
+    margin-top: 30px;
+    width: 30%;
+}
+
+.d-img3{
+    margin-top: 10px;
+    text-align: center;
+    font-style: italic;
+    font-size: 1vw;
+}
+
+
+body{
+    background-color: whitesmoke;
+}
+
+
+#collapse {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.btn{
+    margin: 10px;
+
+}
+
+
+.row,
+.col{
+    display: flex;
+    margin: 1px;
+    justify-content: center;
+    width: 95%;
+    height: 100%;
+    text-align: justify;
+    flex-direction: row;
+    font-size: 1vw;
+
+
+}
+
+.img4{
+    display: flex;
+    margin: auto;
+    margin-top: 15px;
+    width: 20vw;
+    justify-content: center;
+
+}
+
+.d-img4{
+
+    text-align: center;
+    font-style: italic;
+    font-size: 1vw;
+}
+
+.card{
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    border: solid;
+    width: 95%;
+    text-align: justify;
+    font-size: 1vw;
+}
+
+.img5{
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    width: 35%;
+
+}
+
+.d-img5{
+    margin-top: 1px;
+    text-align: center;
+    font-style: italic;
+    font-size: 1vw;
+}
+
+.img6{
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    width: 35%;
+
+}
+.d-img6{
+    margin-top: 1px;
+    text-align: center;
+    font-style: italic;
+    font-size: 1vw;
+}
+
+.img7{
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    width: 35%;
+
+}
+
+.d-img7{
+    margin-top: 10px;
+    text-align: center;
+    font-style: italic;
+    font-size: 1vw;
+}
+
+.subir{
+    margin: auto;
+    display: flex;
+    margin-top: 10px;
+    width: 5vw;
+    height: 10vh;
+    opacity: 80%;
+    
+}
+
+footer{
+    display: flex;
+    height:10vh;
+    margin-top: 15px;
+    background-color:#212529;
+
+
+}
+
+body{
+    background-color:whitesmoke ;
+    }
+
+html{
+    scroll-behavior: smooth;
+}
