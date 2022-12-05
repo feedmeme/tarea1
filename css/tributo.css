@@ -1,8 +1,10 @@
-h1{
+/* Formato para elemento h1 */
+h1 {
     width: 100vw;
 }
 
-.img1{
+/* formato y animación para imágen 1 */
+.img1 {
     margin: auto;
     margin-top: 15px;
     width: 25vw;
@@ -10,17 +12,20 @@ h1{
 
 
 }
-.img1:hover{
+
+.img1:hover {
     border: solid 5px black;
 
 }
 
-#title{
+/* Formato adicional al título */
+#title {
     margin-top: 70px;
-   text-align: center;
+    text-align: center;
 }
 
-#text1{
+/* formato al texto dentro de card */
+#text1 {
     display: flex;
     margin: auto;
     margin-top: 10px;
@@ -29,30 +34,32 @@ h1{
     font-size: 1.5vw;
 }
 
-
-.navbar{
+/* Ajuste adicional a barra de navegación bootstrap */
+.navbar {
     display: flex;
     height: 60px;
 }
 
-.text-bar{
+.text-bar {
     font-size: 15px;
     color: white;
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
 }
-.navbar-togler{
+
+.navbar-togler {
     display: flex;
 
 }
 
-.accordion{
+/* Ajusate adicional a elemento acordeón bootstrap */
+.accordion {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    margin:40px;
+    margin: 40px;
 }
 
-.accordion-body{
+.accordion-body {
     text-align: justify;
     font-size: 1vw;
 
@@ -61,40 +68,36 @@ h1{
 
 }
 
-.img2{
-    display: flex; 
+/* Formato para imágenes y descripciones */
+.img2 {
+    display: flex;
     margin: auto;
     margin-top: 30px;
     width: 30%;
 }
 
-.d-img2{
+.d-img2 {
     margin-top: 10px;
     text-align: center;
     font-style: italic;
     font-size: 1vw;
 }
 
-.img3{
-    display: flex; 
+.img3 {
+    display: flex;
     margin: auto;
     margin-top: 30px;
     width: 30%;
 }
 
-.d-img3{
+.d-img3 {
     margin-top: 10px;
     text-align: center;
     font-style: italic;
     font-size: 1vw;
 }
 
-
-body{
-    background-color: whitesmoke;
-}
-
-
+/* Ajusate adicional al elemento colapsar bootstrap */
 #collapse {
     display: flex;
     margin: auto;
@@ -104,14 +107,14 @@ body{
     text-align: center;
 }
 
-.btn{
+.btn {
     margin: 10px;
 
 }
 
 
 .row,
-.col{
+.col {
     display: flex;
     margin: 1px;
     justify-content: center;
@@ -124,7 +127,8 @@ body{
 
 }
 
-.img4{
+/* Formato para imágenes y descripciones */
+.img4 {
     display: flex;
     margin: auto;
     margin-top: 15px;
@@ -133,14 +137,16 @@ body{
 
 }
 
-.d-img4{
+.d-img4 {
 
     text-align: center;
     font-style: italic;
     font-size: 1vw;
 }
 
-.card{
+
+/*Ajustes adicionales a elemento carta bootstrap */
+.card {
     display: flex;
     margin: auto;
     margin-top: 20px;
@@ -150,7 +156,8 @@ body{
     font-size: 1vw;
 }
 
-.img5{
+/* Formato para imágenes y descripciones */
+.img5 {
     display: flex;
     margin: auto;
     margin-top: 10px;
@@ -158,28 +165,29 @@ body{
 
 }
 
-.d-img5{
+.d-img5 {
     margin-top: 1px;
     text-align: center;
     font-style: italic;
     font-size: 1vw;
 }
 
-.img6{
+.img6 {
     display: flex;
     margin: auto;
     margin-top: 10px;
     width: 35%;
 
 }
-.d-img6{
+
+.d-img6 {
     margin-top: 1px;
     text-align: center;
     font-style: italic;
     font-size: 1vw;
 }
 
-.img7{
+.img7 {
     display: flex;
     margin: auto;
     margin-top: 10px;
@@ -187,36 +195,40 @@ body{
 
 }
 
-.d-img7{
+.d-img7 {
     margin-top: 10px;
     text-align: center;
     font-style: italic;
     font-size: 1vw;
 }
 
-.subir{
+/* Estilos para botón subir */
+.subir {
     margin: auto;
     display: flex;
     margin-top: 10px;
     width: 5vw;
     height: 10vh;
     opacity: 80%;
-    
+
 }
 
-footer{
+/* Formato para pie de página */
+footer {
     display: flex;
-    height:10vh;
+    height: 10vh;
     margin-top: 15px;
-    background-color:#212529;
+    background-color: #212529;
 
 
 }
 
-body{
-    background-color:whitesmoke ;
-    }
+/* Color de fondo para body */
+body {
+    background-color: whitesmoke;
+}
 
-html{
+/* Animación de scrool para página web */
+html {
     scroll-behavior: smooth;
 }
