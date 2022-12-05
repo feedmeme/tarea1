@@ -1,0 +1,34 @@
+#recetario {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image: url('../img/img.png');
+    background-size: cover;
+
+}
+
+h1 {
+    margin-bottom: 5vh;
+    font-size: 10vw;
+    color: white;
+    font-family: 'Manrope', sans-serif;
+    font-weight: bold;
+}
+
+p {
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    font-size: 2vw;
+    color: white;
+    font-family: 'Manrope', sans-serif;
+    font-style: italic;
+}
+
+
+/* Animación de scrool para página web */
+html {
+    scroll-behavior: smooth;
+}
