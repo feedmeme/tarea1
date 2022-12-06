@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Manuel Alejandro Maldonado Solís">
+    <meta name="description" content="Tarea 1 - Módulo IV - Desarrollador web">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/receta1.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Manrope:wght@200;800&family=Roboto:ital,wght@1,100;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+
+    <!--  -->
+    <link rel="icon" type="image/x-icon" href="../img/icono-postre.ico">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <title>Postre</title>
+</head>
+
+<body>
+    <header>
+        <menu>
+            <nav class="navbar navbar-dark bg-dark fixed-top">
+                <div class="container-fluid">
+                    <p class="text-light"><img class="icon1" src="../img/icono-postre.ico" alt="Icono postre"> Postre
+                    </p>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                        aria-labelledby="offcanvasDarkNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Ir a</h5>
+                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a class="nav-link active" href="../recetario/recetario.html">Recetario</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Recetas
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-dark">
+                                        <li><a class="dropdown-item" href="../recetario/receta1.html">Entrada</a></li>
+                                        <li><a class="dropdown-item" href="../recetario/receta2.html">Platillo
+                                                Fuerte</a></li>
+                                        <li><a class="dropdown-item" href="../recetario/receta4.html">Bebida</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </menu>
+    </header>
+
+    <main>
+        <article>
+            <div id="titulo1">
+                <h1>Buñuelos</h1>
+                <p style="text-align:center;">Rinde de 15 a 18 porciones</p>
+                <hr>
+            </div>
+            <table class="table table-dark table-striped">
+                <thead>
+                    <th>#</th>
+                    <th>Ingredientes</th>
+                    <th>Ingredientes de miel casera</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>1/2 taza de agua</td>
+                        <td>1 1/2 taza de azúcar</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>4 cucharadas de mantequilla suave</td>
+                        <td>2 tazas de agua</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>2/3 de taza de harina</td>
+                        <td>1 raja de canela</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>3 a 4 huevos</td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </article>
+
+        <section>
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../img/freir.jpg" class="d-block w-100 img1"
+                            alt="Imagen de preparación de alimentos">
+                        <div class="carousel-caption d-flex d-md-block">
+                            <h5 class="text-dark" style="margin-bottom: 50px;">Preparación de Buñuelos</h5>
+                            <p class="text-dark">Poner a calentar el agua con la mantequilla. Cuando ésta se derrita,
+                                agregar toda la harina de una sola vez.
+                                <br>
+                                Mezclar con una paleta y dejar cocinar a fuego muy bajo, hasta que se forme
+                                una bola y no se pegue en los lados de la olla. Retirar del fuego.
+                                <br>
+                                Después de enfriar la masa por espacio de diez minutos, agregar los huevos,
+                                uno a la vez, batiendo muy bien, antes de agregar el próximo.
+                                <br>
+                                Formar los buñuelos del tamaño deseado (se sugiere de dos cucharaditas) dejar caer en
+                                aceite caliente.
+                                Freír hasta que floten. Servir con miel.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../img/miel.jpg" class="d-block w-100 img2"
+                            alt="Imagen de preparación de alimentos">
+                        <div class="carousel-caption d-flex d-md-block">
+                            <h5 class="text-dark" style="margin-bottom: 70px;">Preparación miel casera</h5>
+                            <p class="text-dark">Combinar el agua y el azúcar en una cacerola sobre fuego lento.
+                                <br>
+                                <br>
+
+                                Dejar cocinar hasta que el azúcar se disuelva.
+                                <br>
+                                <br>
+                                Agregar la canela y continuar cocienco hasta que espese.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../img/bunuelos.jpg" class="d-block w-100 img3"
+                            alt="Imagen de Presentación de Buñuelos">
+                        <div class="carousel-caption d-flex d-md-block">
+                            <h5 style="font-size: 6vw; color: #212529;">Presentación</h5>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+    </main>
+</body>
+
+</html>

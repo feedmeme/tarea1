@@ -1,0 +1,48 @@
+/*Se aplica fuente de google a los titulos en h1-h6  */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Anton', sans-serif;
+    font-size: 4vw;
+}
+
+/* Se aplica fuente de google a los párrafos */
+p {
+    font-family: 'Quicksand', sans-serif;
+    text-align: justify;
+    font-size: 2vw;
+}
+
+/* Disposición del titulo principal */
+#titulo1 {
+    display: flex;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+/* Formato adicional a tabla bootstrap */
+.table {
+    font-size: 1vw;
+    margin: auto;
+    width: 100%;
+    background-color: #212529;
+
+}
+
+/*Opacidad en imágenes */
+.img1,
+.img2 {
+    opacity: 40%;
+}
+
+.icon1{
+    
+    width: 3vw;
+}
