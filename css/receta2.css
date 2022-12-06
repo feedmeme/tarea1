@@ -31,16 +31,20 @@ p {
 .table {
     font-size: 1vw;
     margin: auto;
-    width: 100%;
+    margin-bottom: 5px;
+    text-align: center;
+    width: 50%;
     background-color: #212529;
 
+
 }
 
-/*Opacidad en imágenes */
-.img1,
-.img2 {
+/*Opacidad para texto legible */
+.img1 {
     opacity: 40%;
 }
+
+/*Tamaño de imágenes */
 
 .icon1{
     
